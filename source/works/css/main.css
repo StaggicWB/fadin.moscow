@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #101010;
+  background-position: center;
+  font-family: 'Gilroy', serif;
+  scroll-behavior: smooth;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+header {
+  position: absolute;
+  top: 2em;
+  text-align: center;
+  min-width: 100%;
+  z-index: 10;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+header .lefttext {
+  position: absolute;
+  margin-top: 1.5em;
+}
+
+header .lefttext a {
+  display: inline;
+  margin-left: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  font-weight: 600;
+}
+
+.author {
+  margin: 0 auto;
+  color: #fff;
+}
+
+.worksfield {
+  position:absolute;
+  display: inline-grid;
+  margin: 0 auto;
+  text-align: center;
+  top: 50%;
+  min-width: 100%;
+  min-height: 100%;
+}
