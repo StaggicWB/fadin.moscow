@@ -35,6 +35,7 @@ header {
 
 }
 
+/* NOTE: Previous version is not centered
 video {
   min-width: 100%;
   min-height: 100%;
@@ -42,6 +43,21 @@ video {
   margin-right: auto;
   position: fixed;
   z-index: -100;
+}
+*/
+
+video {
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
 }
 
 a {
